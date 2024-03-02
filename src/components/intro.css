@@ -1,0 +1,71 @@
+.MainIntro
+{
+    margin: 5%;
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+.MainIntro img
+{
+  width: 650px;
+  animation: imageSlideIn 2s ease forwards;
+  height: 550px;
+  
+}
+
+.IntroContent
+{
+  padding-top: 5%;
+  display: flex;
+  flex-direction: column;
+  font-size: x-large;
+  align-items: center;
+  
+}
+
+
+.IntroContent h2 
+{
+  padding: 10px;
+}
+.IntroContent h4
+{
+  padding: 10px;
+} 
+
+
+.IntroContent button {
+
+    font-family: "General-Sans-Medium", sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin-top: 25px;
+    padding: 0.75rem 2.5rem;
+    border-radius: 10px;
+    border: 2px solid #e5e7eb;
+    background-color: whitesmoke;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    
+  }
+  
+  .IntroContent button:hover {
+    background-color: rgb(62, 62, 196);
+    color: #fff; 
+    border-color: rgb(62, 62, 196); 
+    transform: scale(1.1);
+  }
+  
+  @keyframes imageSlideIn {
+    0% {
+      transform: translateY(-25%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }

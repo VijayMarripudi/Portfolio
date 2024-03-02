@@ -1,0 +1,56 @@
+.AboutMeContainer h3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    padding-top: 34px;
+    font-size: 34px;
+}
+.bio
+{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    font-size:medium;
+    
+}
+
+.bio img
+{
+    width: 20%;
+    padding-right: 50px;
+}
+
+.skillset
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 100px;   
+}
+.skillset h4
+{
+  font-size: 24px;
+}
+
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .skills img {
+    width: 100px; 
+    height: 100px; 
+    margin: 10px; 
+    object-fit: contain; 
+    transition: transform 0.3s ease; 
+  }
+  
+  .skills img:hover {
+    transform: scale(1.1);
+  }

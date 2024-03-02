@@ -1,0 +1,50 @@
+.ProjectsModule
+{
+    
+    margin:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.ProjectsContainer
+{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.MainHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  
+  }
+  
+  .TitleName {
+    display: flex;
+    align-items: center;
+  }
+  
+  .TitleName img {
+    width: 45px;
+    height: 55px;
+  }
+  
+  .HeaderNavbar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  
+  .HeaderNavbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px; 
+    transition: all 0.3s ease;
+  }
+  
+  
